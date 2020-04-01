@@ -1,6 +1,9 @@
-# Project Name
+# Ruby on Rails Tutorial sample application
 
-> One paragraph statement about the project.
+This is the sample application for
+[*Ruby on Rails Tutorial:
+Learn Web Development with Rails*](https://www.railstutorial.org/)
+by [Michael Hartl](http://www.michaelhartl.com/).
 
 ![screenshot](./app_screenshot.png)
 
@@ -19,39 +22,38 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get started with the app, clone the repo and then install the needed gems:
 
+```
+$ bundle install --without production
+```
 
-To get a local copy up and running follow these simple example steps.
+Next, migrate the database:
 
-### Prerequisites
+```
+$ rails db:migrate
+```
 
-### Setup
+Finally, run the test suite to verify that everything is working correctly:
 
-### Install
+```
+$ rails test
+```
 
-### Usage
+If the test suite passes, you'll be ready to run the app in a local server:
 
-### Run tests
-
-### Deployment
-
+```
+$ rails server
+```
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Carlos Anriquez**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@canriquez](https://github.com/canriquez)
+- Twitter: [@cranriquez](https://twitter.com/cranriquez)
+- Linkedin: [linkedin](https://www.linkedin.com/in/carlosanriquez/)
 
 ## 🤝 Contributing
 
@@ -71,4 +73,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
+is available jointly under the MIT License and the Beerware License. See
+[LICENSE.md](LICENSE.md) for details.

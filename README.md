@@ -5,7 +5,6 @@ This is the sample application for
 Learn Web Development with Rails*](https://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
-![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 

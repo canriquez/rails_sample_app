@@ -14,7 +14,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get root_path
     assert_response :success
     assert_select 'title', @base_title.to_s
-    assert_select 'link', {:rel => 'stylesheet'}
+    assert_select 'link', { rel: 'stylesheet' }
   end
 
   test 'should get help' do
